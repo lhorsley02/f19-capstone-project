@@ -8,7 +8,11 @@ app.use(express.json());
 
 
 
-app.use(express.static(path.join(__dirname, "../")));
+app.use(express.static(path.join(__dirname, "../indoor-plants")));
+app.use(express.static(path.join(__dirname, "../succulents")));
+app.use(express.static(path.join(__dirname, "../garden-plants")));
+app.use(express.static(path.join(__dirname, "../all-plants")));
+
 
 
 const port = process.env.PORT || 4005;
