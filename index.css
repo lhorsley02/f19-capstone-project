@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ede9dc;
+}
+
+header {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(https://c1.wallpaperflare.com/preview/841/444/910/plant-green-minimal-leaf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 125px;
+    text-shadow: 2px 2px black;
+}
+
+.home-display {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background: none;
+    border: none;
+    height: 125px;
+    width: 350px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+}
+
+
+.container {
+    display: flex;
+}
+
+.left-box {
+    position: absolute;
+    width: 80px;
+    top: 125px;
+    bottom: 0px;
+    background-color: #3e2e20;
+}
+
+.right-box {
+    position: absolute;
+    width: 80px;
+    right: 0px;
+    top: 125px;
+    bottom: 0px;
+    background-color: #3e2e20;
+}
+
+.main-display {
+    color: white;
+    border: none;
+    background-image: url(https://cdn.wallpaper.com/main/2018/08/01_forest17-45.jpg);
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 175px;
+    left: 15%;
+    width: 70%;
+    height: 300px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    font-family: 'Lucida';
+}
+
+    .main-display:hover {
+        transform: scale(1.1)
+    }
+
+.succulent-display {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: white;
+    position: absolute;
+    border: none;
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1505333201693-150bb240ef16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3VjY3VsZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    width: 20%;
+    height: 300px;
+    top: 525px;
+    left: 15%;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Lucida';
+}
+
+    .succulent-display:hover {
+        transform: scale(1.1)
+    }
+
+.indoor-display {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: white;
+    border: none;
+    display: flex;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1592150621744-aca64f48394a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb29yJTIwcGxhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    width: 20%;
+    height: 300px;
+    top: 525px;
+    left: 40%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida';
+}
+
+    .indoor-display:hover {
+        transform: scale(1.1)
+    }
+
+.garden-display {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    color: white;
+    border: none;
+    display: flex;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHZlZ2V0YWJsZSUyMGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    width: 20%;
+    height: 300px;
+    top: 525px;
+    left: 65%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida';
+}
+
+    .garden-display:hover {
+        transform: scale(1.1)
+    }
