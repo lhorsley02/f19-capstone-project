@@ -29,6 +29,32 @@ header {
     font-family: 'Courier New';
 }
 
+.my-plants {
+    color: white;
+    background-color: #1c331c;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    width: 125px;
+    position: absolute;
+    right: 15px;
+    margin: 10px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+}
+
+
+.my-plants:hover { 
+    background-color: #2a472a;
+}
+.my-plants:active {
+    background-color: #2a462a;
+    box-shadow: inset 1px #1c331c;
+    transform: scale(.95);
+}
+
 
 .container {
     display: flex;
@@ -51,6 +77,24 @@ header {
     background-color: #3e2e20;
 }
 
+.info-main {
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: #1c331c;
+    height: 60px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+#info {
+    font-family: 'Courier New';
+    text-shadow: 2px 2px black;
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
 .main-display {
     color: white;
     border: none;
@@ -59,19 +103,22 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    top: 175px;
+    top: 200px;
     left: 15%;
     width: 70%;
     height: 300px;
     text-align: center;
     font-size: 40px;
     text-shadow: 2px 2px black;
-    font-family: 'Lucida';
+    font-family: 'Courier New';
 }
 
     .main-display:hover {
-        transform: scale(1.1)
+        transform: scale(1.1);
+        transition: transform .7s;
+        opacity: 80%;
     }
+
 
 .succulent-display {
     display: flex;
@@ -87,15 +134,17 @@ header {
     background-image: url(https://images.unsplash.com/photo-1505333201693-150bb240ef16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3VjY3VsZW50c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     width: 20%;
     height: 300px;
-    top: 525px;
+    top: 550px;
     left: 15%;
     text-align: center;
     font-size: 22px;
-    font-family: 'Lucida';
+    font-family: 'Courier New';
 }
 
     .succulent-display:hover {
-        transform: scale(1.1)
+        transform: scale(1.1);
+        transition: transform .7s;
+        opacity: 80%;
     }
 
 .indoor-display {
@@ -112,15 +161,17 @@ header {
     background-image: url(https://images.unsplash.com/photo-1592150621744-aca64f48394a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb29yJTIwcGxhbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     width: 20%;
     height: 300px;
-    top: 525px;
+    top: 550px;
     left: 40%;
     text-align: center;
     font-size: 25px;
-    font-family: 'Lucida';
+    font-family: 'Courier New';
 }
 
     .indoor-display:hover {
-        transform: scale(1.1)
+        transform: scale(1.1);
+        transition: transform .7s;
+        opacity: 80%;
     }
 
 .garden-display {
@@ -137,13 +188,15 @@ header {
     background-image: url(https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHZlZ2V0YWJsZSUyMGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
     width: 20%;
     height: 300px;
-    top: 525px;
+    top: 550px;
     left: 65%;
     text-align: center;
     font-size: 25px;
-    font-family: 'Lucida';
+    font-family: 'Courier New';
 }
 
     .garden-display:hover {
-        transform: scale(1.1)
+        transform: scale(1.1);
+        transition: transform .7s;
+        opacity: 80%;
     }

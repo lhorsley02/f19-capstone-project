@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ede9dc;
+}
+
+header {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(https://c1.wallpaperflare.com/preview/841/444/910/plant-green-minimal-leaf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 125px;
+    text-shadow: 2px 2px black;
+}
+
+.home-display {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background: none;
+    border: none;
+    height: 125px;
+    width: 350px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+}
+
+.my-plants {
+    color: white;
+    background-color: #1c331c;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    width: 125px;
+    position: absolute;
+    right: 15px;
+    margin: 10px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+}
+
+
+.my-plants:hover { 
+    background-color: #2a472a;
+}
+.my-plants:active {
+    background-color: #2a462a;
+    box-shadow: inset 1px #1c331c;
+    transform: scale(.95);
+}
+
+
+.container {
+    display: flex;
+}
+
+.left-box {
+    position: absolute;
+    width: 80px;
+    top: 125px;
+    bottom: 0px;
+    background-color: #3e2e20;
+}
+
+.right-box {
+    position: absolute;
+    width: 80px;
+    right: 0px;
+    top: 125px;
+    bottom: 0px;
+    background-color: #3e2e20;
+}
+
+.info-main {
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: #1c331c;
+    height: 60px;
+    width: 100%;
+    border: 1px solid white;
+}
+
+#info {
+    font-family: 'Courier New';
+    text-shadow: 2px 2px black;
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}

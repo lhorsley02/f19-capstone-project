@@ -1,14 +1,7 @@
-html {
-    margin: 0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-}
-
 body {
     padding: 0;
     margin: 0;
     background-color: #ede9dc;
-    /* height: 100vh; */
 }
 
 header {
@@ -36,22 +29,43 @@ header {
     font-family: 'Courier New';
 }
 
+.my-plants {
+    color: white;
+    background-color: #1c331c;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    width: 125px;
+    position: absolute;
+    right: 15px;
+    margin: 10px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+}
+
+
+.my-plants:hover { 
+    background-color: #2a472a;
+}
+.my-plants:active {
+    background-color: #2a462a;
+    box-shadow: inset 1px #1c331c;
+    transform: scale(.95);
+}
+
+
 .container {
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: baseline;
-	align-content: stretch;
-    height: 100%;
 }
 
 .left-box {
     position: absolute;
     width: 80px;
     top: 125px;
-    bottom: 0px;
     height: 100%;
+    bottom: 0px;
     background-color: #3e2e20;
 }
 
@@ -60,13 +74,15 @@ header {
     width: 80px;
     right: 0px;
     top: 125px;
-    bottom: 0px;
     height: 100%;
+    bottom: 0px;
     background-color: #3e2e20;
 }
 
 
-.succ-container {
+
+
+.garden-container {
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -84,7 +100,7 @@ header {
     font-size: 40px;
 }
 
-#succ-title {
+#garden-title {
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -150,6 +166,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .lettuce-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -204,6 +223,9 @@ header {
         bottom: 5px;
         left: 25%;
         font-family: 'Brush Script MT ';
+    }
+    .tomatoes-view-btn:hover { 
+        background-color: #503f30;
     }
 
 
@@ -260,6 +282,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .beans-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -314,6 +339,9 @@ header {
         bottom: 5px;
         left: 25%;
         font-family: 'Brush Script MT ';
+    }
+    .peppers-view-btn:hover { 
+        background-color: #503f30;
     }
 
 
@@ -371,6 +399,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .cucumbers-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -426,6 +457,9 @@ header {
         bottom: 5px;
         left: 25%;
         font-family: 'Brush Script MT ';
+    }
+    .carrots-view-btn:hover { 
+        background-color: #503f30;
     }
 
 
@@ -483,6 +517,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .potatoes-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -538,6 +575,9 @@ header {
         bottom: 5px;
         left: 25%;
         font-family: 'Brush Script MT ';
+    }
+    .squash-view-btn:hover { 
+        background-color: #503f30;
     }
 
 
@@ -595,6 +635,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .corn-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -650,4 +693,7 @@ header {
         bottom: 5px;
         left: 25%;
         font-family: 'Brush Script MT ';
+    }
+    .onions-view-btn:hover { 
+        background-color: #503f30;
     }

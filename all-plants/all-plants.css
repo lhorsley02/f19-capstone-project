@@ -2,7 +2,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ede9dc;
-    height: 300%;
 }
 
 header {
@@ -30,6 +29,33 @@ header {
     font-family: 'Courier New';
 }
 
+.my-plants {
+    color: white;
+    background-color: #1c331c;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    width: 125px;
+    position: absolute;
+    right: 15px;
+    margin: 10px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+}
+
+
+.my-plants:hover { 
+    background-color: #2a472a;
+}
+.my-plants:active {
+    background-color: #2a462a;
+    box-shadow: inset 1px #1c331c;
+    transform: scale(.95);
+}
+
+
 .container {
     display: flex;
 }
@@ -39,8 +65,8 @@ header {
     width: 80px;
     top: 125px;
     bottom: 0px;
+    height: 250%;
     background-color: #3e2e20;
-    height: 300%;
 }
 
 .right-box {
@@ -49,9 +75,11 @@ header {
     right: 0px;
     top: 125px;
     bottom: 0px;
+    height: 250%;
     background-color: #3e2e20;
-    height: 300%;
 }
+
+
 
 
 .all-container {
@@ -88,7 +116,7 @@ header {
 
 /* Indoor */
 
-#monstera-box {
+    #monstera-box {
     display: flex;
     position: relative;
     background-color: #ede9dc;
@@ -97,7 +125,7 @@ header {
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
     border-radius: 15px;
-}
+    }
     .monstera-header {
         position: absolute;
         font-family: 'Courier New';
@@ -138,6 +166,10 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .monstera-view-btn:hover { 
+        background-color: #503f30;
+    }
+
 
 
 
@@ -164,7 +196,7 @@ header {
             text-align: left;
             text-indent: 10px;
         }
-    
+
         #fiddle-pic {
             display: flex;
             background-image: url(https://images.unsplash.com/photo-1596547612397-1432a7a7d37d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
@@ -178,7 +210,7 @@ header {
             border-radius: 5%;
             box-shadow: 1px 1px 2px #3e2e20;
         }
-    
+
         .fiddle-view-btn {
             color: white;
             font-size: 15px;
@@ -191,6 +223,10 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .fiddle-view-btn:hover { 
+            background-color: #503f30;
+        }
+
 
 
 
@@ -245,6 +281,11 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .money-plant-view-btn:hover { 
+            background-color: #503f30;
+        }
+
+
 
 
 
@@ -299,6 +340,11 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .rubber-view-btn:hover { 
+            background-color: #503f30;
+        }
+
+
 
 
 
@@ -353,6 +399,11 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .lucky-view-btn:hover { 
+            background-color: #503f30;
+        }
+
+
 
 
 
@@ -407,6 +458,11 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .pothos-view-btn:hover { 
+            background-color: #503f30;
+        }
+
+
 
 
 
@@ -461,6 +517,11 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .ponyPalm-view-btn:hover { 
+            background-color: #503f30;
+        }
+
+
 
 
 
@@ -515,6 +576,11 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .birds-view-btn:hover { 
+            background-color: #503f30;
+        }
+
+
 
 
 
@@ -569,6 +635,11 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .lily-view-btn:hover { 
+            background-color: #503f30;
+        }
+
+
 
 
 
@@ -623,6 +694,10 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .spider-view-btn:hover { 
+            background-color: #503f30;
+        }
+
 
 
 
@@ -678,6 +753,10 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .snake-view-btn:hover { 
+        background-color: #503f30;
+    }
+
 
 
 
@@ -732,6 +811,10 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .echeveria-view-btn:hover { 
+        background-color: #503f30;
+    }
+
 
 
 
@@ -786,6 +869,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .cactus-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -840,6 +928,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .jade-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -894,6 +987,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .bear-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -947,6 +1045,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .aloe-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1001,6 +1104,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .pearls-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1055,6 +1163,10 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .zz-view-btn:hover { 
+        background-color: #503f30;
+    }
+
 
 
 
@@ -1110,6 +1222,12 @@ header {
         font-family: 'Brush Script MT ';
     }
 
+    .air-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
+
 
 
 #hearts-box {
@@ -1163,6 +1281,10 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .hearts-view-btn:hover { 
+        background-color: #503f30;
+    }
+
 
 
 
@@ -1220,6 +1342,10 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .lettuce-view-btn:hover { 
+        background-color: #503f30;
+    }
+
 
 
 
@@ -1274,6 +1400,10 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .tomatoes-view-btn:hover { 
+        background-color: #503f30;
+    }
+
 
 
 
@@ -1328,6 +1458,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .beans-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1381,6 +1516,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .peppers-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1435,6 +1575,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .cucumbers-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1489,6 +1634,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .carrots-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1543,6 +1693,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .potatoes-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1597,6 +1752,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .squash-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1651,6 +1811,11 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .corn-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
 
 
 
@@ -1705,4 +1870,6 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-
+    .onions-view-btn:hover { 
+        background-color: #503f30;
+    }

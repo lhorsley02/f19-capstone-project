@@ -1,14 +1,7 @@
-html {
-    margin: 0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-}
-
 body {
     padding: 0;
     margin: 0;
     background-color: #ede9dc;
-    /* height: 100vh; */
 }
 
 header {
@@ -36,14 +29,35 @@ header {
     font-family: 'Courier New';
 }
 
+.my-plants {
+    color: white;
+    background-color: #1c331c;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    width: 125px;
+    position: absolute;
+    right: 15px;
+    margin: 10px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+}
+
+
+.my-plants:hover { 
+    background-color: #2a472a;
+}
+.my-plants:active {
+    background-color: #2a462a;
+    box-shadow: inset 1px #1c331c;
+    transform: scale(.95);
+}
+
+
 .container {
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: baseline;
-	align-content: stretch;
-    height: 100%;
 }
 
 .left-box {
@@ -64,6 +78,7 @@ header {
     height: 100%;
     background-color: #3e2e20;
 }
+
 
 
 .succ-container {
@@ -149,6 +164,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .snake-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -204,6 +222,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .echeveria-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -258,6 +279,9 @@ header {
         bottom: 5px;
         left: 25%;
         font-family: 'Brush Script MT ';
+    }
+    .cactus-view-btn:hover { 
+        background-color: #503f30;
     }
 
 
@@ -315,6 +339,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .jade-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -371,6 +398,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .bear-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -425,6 +455,9 @@ header {
         bottom: 5px;
         left: 25%;
         font-family: 'Brush Script MT ';
+    }
+    .aloe-view-btn:hover { 
+        background-color: #503f30;
     }
 
 
@@ -482,6 +515,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .pearls-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -538,7 +574,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-
+    .zz-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -593,6 +631,10 @@ header {
         bottom: 5px;
         left: 25%;
         font-family: 'Brush Script MT ';
+    }
+
+    .air-view-btn:hover { 
+        background-color: #503f30;
     }
 
 
@@ -650,3 +692,10 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
+    .hearts-view-btn:hover { 
+        background-color: #503f30;
+    }
+
+
+
+

@@ -1,14 +1,7 @@
-html {
-    margin: 0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-}
-
 body {
     padding: 0;
     margin: 0;
     background-color: #ede9dc;
-    /* height: 100vh; */
 }
 
 header {
@@ -36,22 +29,43 @@ header {
     font-family: 'Courier New';
 }
 
+.my-plants {
+    color: white;
+    background-color: #1c331c;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    height: 45px;
+    width: 125px;
+    position: absolute;
+    right: 15px;
+    margin: 10px;
+    text-shadow: 2px 2px black;
+    font-family: 'Courier New';
+}
+
+
+.my-plants:hover { 
+    background-color: #2a472a;
+}
+.my-plants:active {
+    background-color: #2a462a;
+    box-shadow: inset 1px #1c331c;
+    transform: scale(.95);
+}
+
+
 .container {
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: baseline;
-	align-content: stretch;
-    height: 100%;
 }
 
 .left-box {
     position: absolute;
     width: 80px;
+    height: 100%;
     top: 125px;
     bottom: 0px;
-    height: 100%;
     background-color: #3e2e20;
 }
 
@@ -60,10 +74,12 @@ header {
     width: 80px;
     right: 0px;
     top: 125px;
-    bottom: 0px;
     height: 100%;
+    bottom: 0px;
     background-color: #3e2e20;
 }
+
+
 
 
 .indoor-container {
@@ -148,7 +164,9 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-
+    .monstera-view-btn:hover { 
+        background-color: #503f30;
+    }
 
 
 
@@ -203,7 +221,9 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
-
+        .fiddle-view-btn:hover { 
+            background-color: #503f30;
+        }
 
 
 
@@ -258,6 +278,9 @@ header {
             bottom: 5px;
             left: 25%;
             font-family: 'Brush Script MT ';
+        }
+        .money-plant-view-btn:hover { 
+            background-color: #503f30;
         }
 
 
@@ -315,6 +338,9 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .rubber-view-btn:hover { 
+            background-color: #503f30;
+        }
 
 
 
@@ -370,6 +396,9 @@ header {
             bottom: 5px;
             left: 25%;
             font-family: 'Brush Script MT ';
+        }
+        .lucky-view-btn:hover { 
+            background-color: #503f30;
         }
 
 
@@ -427,6 +456,9 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .pothos-view-btn:hover { 
+            background-color: #503f30;
+        }
 
 
 
@@ -482,6 +514,9 @@ header {
             bottom: 5px;
             left: 25%;
             font-family: 'Brush Script MT ';
+        }
+        .ponyPalm-view-btn:hover { 
+            background-color: #503f30;
         }
 
 
@@ -539,6 +574,9 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .birds-view-btn:hover { 
+            background-color: #503f30;
+        }
 
 
 
@@ -595,6 +633,9 @@ header {
             left: 25%;
             font-family: 'Brush Script MT ';
         }
+        .lily-view-btn:hover { 
+            background-color: #503f30;
+        }
 
 
 
@@ -650,4 +691,7 @@ header {
             bottom: 5px;
             left: 25%;
             font-family: 'Brush Script MT ';
+        }
+        .spider-view-btn:hover { 
+            background-color: #503f30;
         }
