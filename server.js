@@ -9,14 +9,15 @@ app.use(express.json());
 
 
 
-app.use(express.static(path.join(__dirname, "../indoor-plants")));
-app.use(express.static(path.join(__dirname, "../succulents")));
-app.use(express.static(path.join(__dirname, "../garden-plants")));
-app.use(express.static(path.join(__dirname, "../all-plants")));
+app.use(express.static(path.join(__dirname, "./indoor-plants")));
+app.use(express.static(path.join(__dirname, "./succulents")));
+app.use(express.static(path.join(__dirname, "./garden-plants")));
+app.use(express.static(path.join(__dirname, "./all-plants")));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(___dirname, '/index.html'))
 })
+
 
 
 const {addPlant, deletePlant} = require('./controller')
