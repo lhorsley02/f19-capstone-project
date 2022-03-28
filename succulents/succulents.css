@@ -9,7 +9,7 @@ header {
     color: white;
     text-align: center;
     font-size: 25px;
-    background-image: url(https://c1.wallpaperflare.com/preview/841/444/910/plant-green-minimal-leaf.jpg);
+    background-image: url(https://images.unsplash.com/photo-1608327624934-69f40c5a819b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -152,7 +152,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .snake-view-btn {
+    .snake-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -164,7 +164,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .snake-view-btn:hover { 
+    .snake-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -210,7 +210,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .echeveria-view-btn {
+    .echeveria-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -222,7 +222,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .echeveria-view-btn:hover { 
+    .echeveria-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -268,7 +268,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .cactus-view-btn {
+    .cactus-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -280,7 +280,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .cactus-view-btn:hover { 
+    .cactus-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -327,7 +327,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .jade-view-btn {
+    .jade-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -339,7 +339,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .jade-view-btn:hover { 
+    .jade-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -386,7 +386,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .bear-view-btn {
+    .bear-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -398,7 +398,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .bear-view-btn:hover { 
+    .bear-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -444,7 +444,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .aloe-view-btn {
+    .aloe-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -456,7 +456,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .aloe-view-btn:hover { 
+    .aloe-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -503,7 +503,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .pearls-view-btn {
+    .pearls-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -515,7 +515,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .pearls-view-btn:hover { 
+    .pearls-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -562,7 +562,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .zz-view-btn {
+    .zz-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -574,7 +574,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .zz-view-btn:hover { 
+    .zz-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -620,7 +620,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .air-view-btn {
+    .air-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -633,7 +633,7 @@ header {
         font-family: 'Brush Script MT ';
     }
 
-    .air-view-btn:hover { 
+    .air-add-btn:hover { 
         background-color: #503f30;
     }
 
@@ -680,7 +680,7 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
-    .hearts-view-btn {
+    .hearts-add-btn {
         color: white;
         font-size: 15px;
         background-color: #3e2e20;
@@ -692,7 +692,7 @@ header {
         left: 25%;
         font-family: 'Brush Script MT ';
     }
-    .hearts-view-btn:hover { 
+    .hearts-add-btn:hover { 
         background-color: #503f30;
     }
 
