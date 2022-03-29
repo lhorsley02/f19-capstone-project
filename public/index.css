@@ -29,31 +29,7 @@ header {
     font-family: 'Courier New';
 }
 
-.my-plants {
-    color: white;
-    background-color: #1c331c;
-    border-radius: 15px;
-    text-align: center;
-    font-size: 18px;
-    border: none;
-    height: 45px;
-    width: 125px;
-    position: absolute;
-    right: 15px;
-    margin: 10px;
-    text-shadow: 2px 2px black;
-    font-family: 'Courier New';
-}
 
-
-.my-plants:hover { 
-    background-color: #2a472a;
-}
-.my-plants:active {
-    background-color: #2a462a;
-    box-shadow: inset 1px #1c331c;
-    transform: scale(.95);
-}
 
 
 .container {
