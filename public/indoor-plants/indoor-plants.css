@@ -114,6 +114,9 @@ header {
 }
 
 
+
+
+
 #monstera-box {
     display: flex;
     position: relative;
@@ -123,7 +126,7 @@ header {
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
     border-radius: 15px;
-}
+    }
     .monstera-header {
         position: absolute;
         font-family: 'Courier New';
@@ -194,7 +197,7 @@ header {
             text-align: left;
             text-indent: 10px;
         }
-    
+
         #fiddle-pic {
             display: flex;
             background-image: url(https://images.unsplash.com/photo-1596547612397-1432a7a7d37d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
@@ -208,7 +211,7 @@ header {
             border-radius: 5%;
             box-shadow: 1px 1px 2px #3e2e20;
         }
-    
+
         .fiddle-view-btn {
             color: white;
             font-size: 15px;
@@ -287,124 +290,6 @@ header {
 
 
 
-    #rubber-box {
-        display: flex;
-        position: relative;
-        background-color: #ede9dc;
-        height: 300px;
-        width: 250px;
-        margin-bottom: 50px;
-        border: 2px solid  #3e2e20;
-        border-radius: 15px;
-    }
-        .rubber-header {
-            position: absolute;
-            font-family: 'Courier New';
-            border-radius: 10px 10px 0px 0px;
-            width: 100%;
-            height: 35px;
-            top: -25px;
-            background-color: #3e2e20;
-            color: white;
-            font-size: 25px;
-            text-align: left;
-            text-indent: 10px;
-        }
-
-        #rubber-pic {
-            display: flex;
-            background-image: url(https://images.unsplash.com/photo-1613737693507-cdb994656e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            position: absolute;
-            top: 50px;
-            left: 10%;
-            height: 200px;
-            width: 80%;
-            border-radius: 5%;
-            box-shadow: 1px 1px 2px #3e2e20;
-        }
-
-        .rubber-view-btn {
-            color: white;
-            font-size: 15px;
-            background-color: #3e2e20;
-            position: absolute;
-            border-radius: 20px;
-            width: 50%;
-            height: 40px;
-            bottom: 5px;
-            left: 25%;
-            font-family: 'Brush Script MT ';
-        }
-        .rubber-view-btn:hover { 
-            background-color: #503f30;
-        }
-
-
-
-
-
-    #lucky-box {
-        display: flex;
-        position: relative;
-        background-color: #ede9dc;
-        height: 300px;
-        width: 250px;
-        margin-bottom: 50px;
-        border: 2px solid  #3e2e20;
-        border-radius: 15px;
-    }
-        .lucky-header {
-            position: absolute;
-            font-family: 'Courier New';
-            border-radius: 10px 10px 0px 0px;
-            width: 100%;
-            height: 35px;
-            top: -25px;
-            background-color: #3e2e20;
-            color: white;
-            font-size: 25px;
-            text-align: left;
-            text-indent: 10px;
-        }
-
-        #lucky-pic {
-            display: flex;
-            background-image: url(https://images.unsplash.com/photo-1643754547206-97f97802b916?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            position: absolute;
-            top: 50px;
-            left: 10%;
-            height: 200px;
-            width: 80%;
-            border-radius: 5%;
-            box-shadow: 1px 1px 2px #3e2e20;
-        }
-
-        .lucky-view-btn {
-            color: white;
-            font-size: 15px;
-            background-color: #3e2e20;
-            position: absolute;
-            border-radius: 20px;
-            width: 50%;
-            height: 40px;
-            bottom: 5px;
-            left: 25%;
-            font-family: 'Brush Script MT ';
-        }
-        .lucky-view-btn:hover { 
-            background-color: #503f30;
-        }
-
-
-
-
-
     #pothos-box {
         display: flex;
         position: relative;
@@ -457,183 +342,6 @@ header {
             font-family: 'Brush Script MT ';
         }
         .pothos-view-btn:hover { 
-            background-color: #503f30;
-        }
-
-
-
-
-
-    #ponyPalm-box {
-        display: flex;
-        position: relative;
-        background-color: #ede9dc;
-        height: 300px;
-        width: 250px;
-        margin-bottom: 50px;
-        border: 2px solid  #3e2e20;
-        border-radius: 15px;
-    }
-        .ponyPalm-header {
-            position: absolute;
-            font-family: 'Courier New';
-            border-radius: 10px 10px 0px 0px;
-            width: 100%;
-            height: 35px;
-            top: -25px;
-            background-color: #3e2e20;
-            color: white;
-            font-size: 25px;
-            text-align: left;
-            text-indent: 10px;
-        }
-
-        #ponyPalm-pic {
-            display: flex;
-            background-image: url(https://images.unsplash.com/photo-1613737693060-1324b1f5eab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            position: absolute;
-            top: 50px;
-            left: 10%;
-            height: 200px;
-            width: 80%;
-            border-radius: 5%;
-            box-shadow: 1px 1px 2px #3e2e20;
-        }
-
-        .ponyPalm-view-btn {
-            color: white;
-            font-size: 15px;
-            background-color: #3e2e20;
-            position: absolute;
-            border-radius: 20px;
-            width: 50%;
-            height: 40px;
-            bottom: 5px;
-            left: 25%;
-            font-family: 'Brush Script MT ';
-        }
-        .ponyPalm-view-btn:hover { 
-            background-color: #503f30;
-        }
-
-
-
-
-
-    #birds-box {
-        display: flex;
-        position: relative;
-        background-color: #ede9dc;
-        height: 300px;
-        width: 250px;
-        margin-bottom: 50px;
-        border: 2px solid  #3e2e20;
-        border-radius: 15px;
-    }
-        .birds-header {
-            position: absolute;
-            font-family: 'Courier New';
-            border-radius: 10px 10px 0px 0px;
-            width: 100%;
-            height: 35px;
-            top: -25px;
-            background-color: #3e2e20;
-            color: white;
-            font-size: 22px;
-            text-align: left;
-            text-indent: 10px;
-        }
-
-        #birds-pic {
-            display: flex;
-            background-image: url(https://images.unsplash.com/photo-1615213739532-61ee9d0120a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            position: absolute;
-            top: 50px;
-            left: 10%;
-            height: 200px;
-            width: 80%;
-            border-radius: 5%;
-            box-shadow: 1px 1px 2px #3e2e20;
-        }
-
-        .birds-view-btn {
-            color: white;
-            font-size: 15px;
-            background-color: #3e2e20;
-            position: absolute;
-            border-radius: 20px;
-            width: 50%;
-            height: 40px;
-            bottom: 5px;
-            left: 25%;
-            font-family: 'Brush Script MT ';
-        }
-        .birds-view-btn:hover { 
-            background-color: #503f30;
-        }
-
-
-
-
-
-    #lily-box {
-        display: flex;
-        position: relative;
-        background-color: #ede9dc;
-        height: 300px;
-        width: 250px;
-        margin-bottom: 50px;
-        border: 2px solid  #3e2e20;
-        border-radius: 15px;
-    }
-        .lily-header {
-            position: absolute;
-            font-family: 'Courier New';
-            border-radius: 10px 10px 0px 0px;
-            width: 100%;
-            height: 35px;
-            top: -25px;
-            background-color: #3e2e20;
-            color: white;
-            font-size: 25px;
-            text-align: left;
-            text-indent: 10px;
-        }
-
-        #lily-pic {
-            display: flex;
-            background-image: url(https://images.unsplash.com/photo-1620311497344-bce841c9c060?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            position: absolute;
-            top: 50px;
-            left: 10%;
-            height: 200px;
-            width: 80%;
-            border-radius: 5%;
-            box-shadow: 1px 1px 2px #3e2e20;
-        }
-
-        .lily-view-btn {
-            color: white;
-            font-size: 15px;
-            background-color: #3e2e20;
-            position: absolute;
-            border-radius: 20px;
-            width: 50%;
-            height: 40px;
-            bottom: 5px;
-            left: 25%;
-            font-family: 'Brush Script MT ';
-        }
-        .lily-view-btn:hover { 
             background-color: #503f30;
         }
 
