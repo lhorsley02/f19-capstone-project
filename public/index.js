@@ -24,7 +24,6 @@ const cornBtn = document.querySelector('.corn-view-btn')
 
 const BaseURL = `http://localhost:4005`
 
-
 function sayHello(event) {
     
     axios.get(`${BaseURL}`)
@@ -33,11 +32,60 @@ function sayHello(event) {
         })
 }
 
-function getInfo(event) {
+function getMonsteraInfo(event) {
     
-    axios.get(`${BaseURL}/plants/`)
+    axios.get(`${BaseURL}/api/plants`)
         .then(res => {
-            alert("working?")
+            console.log(Object.values(res.data[0]))
+            document.getElementById("monstera-info").textContent = Object.values(res.data[0]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getFiddleInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("fiddle-info").textContent = Object.values(res.data[1]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getMoneyInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("money-plant-info").textContent = Object.values(res.data[2]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getPothosInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("pothos-info").textContent = Object.values(res.data[3]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getSpiderInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("spider-info").textContent = Object.values(res.data[4]).join(" ")
         })
         .catch(err => {
             console.log(err)
@@ -46,5 +94,36 @@ function getInfo(event) {
 
 
 
-monsteraBtn.addEventListener('click', sayHello)
-fiddleBtn.addEventListener('click', getInfo)
+
+
+
+
+
+
+function displayInfo(event) {
+
+    let printName = document.getElementById("fiddle-info").innerHTML
+
+    axios.post(`${BaseURL}/api/viewedPlants`, {name: printName} )
+        .then((res) => {
+
+        })
+}
+
+
+monsteraBtn.addEventListener('click', () => {
+    getMonsteraInfo()
+})
+fiddleBtn.addEventListener('click', () => {
+    getFiddleInfo()
+    displayInfo()
+})
+moneyPlantBtn.addEventListener('click', () => {
+    getMoneyInfo()
+})
+pothosBtn.addEventListener('click', () => {
+    getPothosInfo()
+})
+spiderBtn.addEventListener('click', () => {
+    getSpiderInfo()
+})
