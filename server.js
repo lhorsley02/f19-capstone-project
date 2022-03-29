@@ -53,68 +53,68 @@ const plants = [
 
 
     {
-        name: "Sansevieria",
-        sunlight: "Anywhere from Low to Direct",
-        water: "Every 2-3 Weeks, When Dry",
-        category: "Succulent"
+        name: "NAME: Sansevieria ~~~",
+        sunlight: "LIGHT: Low / Direct ~~~",
+        water: "WATER: Every 2-3 Weeks",
+        category: "CATEGORY: Succulent"
     },
     {
-        name: "Cactaceae",
-        sunlight: "Bright Indirect",
-        water: "10 - 14 Days, When Dry",
-        category: "Succulent"
+        name: "NAME: Cactaceae ~~~",
+        sunlight: "LIGHT: Bright Indirect",
+        water: "WATER: 10 - 14 Days",
+        category: "CATEGORY: Succulent"
     },
     {
-        name: "Crassula Ovata",
-        sunlight: "Bright Indirect",
-        water: "Every 2-3 Weeks, When Dry",
-        category: "Succulent"
+        name: "NAME: Crassula Ovata",
+        sunlight: "LIGHT: Bright Indirect",
+        water: "WATER: Every 2-3 Weeks",
+        category: "CATEGORY: Succulent"
     },
     {
-        name: "Zamioculcas",
-        sunlight: "Medium to Bright Indirect",
-        water: "Every 7-14 Days, When Dry",
-        category: "Succulent"
+        name: "NAME: Zamioculcas ~~~~",
+        sunlight: "LIGHT: Medium / Bright Indirect",
+        water: "WATER: Every 7-14 Days",
+        category: "CATEGORY: Succulent"
     },
     {
-        name: "Ceropegia",
-        sunlight: "Bright Indirect, Occasional Direct",
-        water: "Every 7-10 Days, When Dry",
-        category: "Succulent"
+        name: "NAME: Ceropegia ~~~",
+        sunlight: "LIGHT: Bright Indirect",
+        water: "WATER: Every 7-10 Days",
+        category: "CATEGORY: Succulent"
     },
     
 
 
 
     {
-        name: "Lactuca Sativa",
-        sunlight: "Direct Sun",
-        water: "Daily",
-        category: "Garden Plant"
+        name: "NAME: Lactuca Sativa",
+        sunlight: "LIGHT: Direct Sun ~~~",
+        water: "WATER: Daily ~~~",
+        category: "CATEGORY: Garden Plant"
     },
     {
-        name: "Solanum Lycopersicum",
-        sunlight: "Direct",
-        water: "Daily",
-        category: "Garden Plant"
+        name: "NAME: Solanum Lycopersicum",
+        sunlight: "LIGHT: Direct ~~~ ~~~ ",
+        water: "WATER: Daily ~~~ ~~~ ",
+        category: "CATEGORY: Garden Plant"
     },
     {
-        name: "Cucumis Sativus",
-        sunlight: "Direct",
-        water: "Daily",
-        category: "Garden Plant"
+        name: "NAME: Cucumis Sativus",
+        sunlight: "LIGHT: Direct ~~~ ~~~ ",
+        water: "WATER: Daily ~~~ ~~~ ",
+        category: "CATEGORY: Garden Plant"
     },
     {
-        name: "Daucus Carota",
-        sunlight: "Direct",
-        water: "Daily",
-        category: "Garden Plant"
+        name: "NAME: Daucus Carota",
+        sunlight: "LIGHT: Direct ~~~ ~~~ ",
+        water: "WATER: Daily ~~~ ~~~ ",
+        category: "CATEGORY: Garden Plant"
     },
     {
-        name: "Zea Mays",
-        sunlight: "Direct",
-        water: "Daily",
-        category: "Garden Plant"
+        name: "NAME: Zea Mays ~~~ ~~~ ",
+        sunlight: "LIGHT: Direct ~~~ ~~~ ",
+        water: "WATER: Daily ~~~ ~~~ ",
+        category: "CATEGORY: Garden Plant"
     },
    
 ]

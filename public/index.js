@@ -96,6 +96,129 @@ function getSpiderInfo(event) {
 
 
 
+function getSnakeInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("snake-info").textContent = Object.values(res.data[5]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getCactusInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("cactus-info").textContent = Object.values(res.data[6]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getJadeInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("jade-info").textContent = Object.values(res.data[7]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getZzInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("zz-info").textContent = Object.values(res.data[8]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getHeartsInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("hearts-info").textContent = Object.values(res.data[9]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+
+
+
+function getLettuceInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("lettuce-info").textContent = Object.values(res.data[10]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getTomatoesInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("tomatoes-info").textContent = Object.values(res.data[11]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getCucumbersInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("cucumbers-info").textContent = Object.values(res.data[12]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getCarrotsInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("carrots-info").textContent = Object.values(res.data[13]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
+function getCornInfo(event) {
+    
+    axios.get(`${BaseURL}/api/plants`)
+        .then(res => {
+            console.log(Object.values(res.data[0]))
+            document.getElementById("corn-info").textContent = Object.values(res.data[14]).join(" ")
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
+
 
 
 
@@ -126,4 +249,38 @@ pothosBtn.addEventListener('click', () => {
 })
 spiderBtn.addEventListener('click', () => {
     getSpiderInfo()
+})
+
+
+snakeBtn.addEventListener('click', () => {
+    getSnakeInfo()
+})
+cactusBtn.addEventListener('click', () => {
+    getCactusInfo()
+})
+jadeBtn.addEventListener('click', () => {
+    getJadeInfo()
+})
+zzBtn.addEventListener('click', () => {
+    getZzInfo()
+})
+heartsBtn.addEventListener('click', () => {
+    getHeartsInfo()
+})
+
+
+lettuceBtn.addEventListener('click', () => {
+    getLettuceInfo()
+})
+tomatoesBtn.addEventListener('click', () => {
+    getTomatoesInfo()
+})
+cucumbersBtn.addEventListener('click', () => {
+    getCucumbersInfo()
+})
+carrotsBtn.addEventListener('click', () => {
+    getCarrotsInfo()
+})
+cornBtn.addEventListener('click', () => {
+    getCornInfo()
 })

@@ -442,7 +442,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -476,6 +476,17 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
+    #snake-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 18px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
     .snake-view-btn {
         color: white;
         font-size: 15px;
@@ -499,7 +510,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -533,6 +544,17 @@ header {
         border-radius: 5%;
         box-shadow: 1px 1px 2px #3e2e20;
     }
+    
+    #cactus-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 20px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
 
     .cactus-view-btn {
         color: white;
@@ -558,7 +580,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -592,6 +614,17 @@ header {
         border-radius: 5%;
         box-shadow: 1px 1px 2px #3e2e20;
     }
+    
+    #jade-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 20px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
 
     .jade-view-btn {
         color: white;
@@ -617,7 +650,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -651,6 +684,17 @@ header {
         border-radius: 5%;
         box-shadow: 1px 1px 2px #3e2e20;
     }
+    
+    #zz-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 17px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
 
     .zz-view-btn {
         color: white;
@@ -676,7 +720,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -710,6 +754,17 @@ header {
         border-radius: 5%;
         box-shadow: 1px 1px 2px #3e2e20;
     }
+    
+    #hearts-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 20px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
 
     .hearts-view-btn {
         color: white;
@@ -737,7 +792,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -772,6 +827,17 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
+    #lettuce-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 20px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
     .lettuce-view-btn {
         color: white;
         font-size: 15px;
@@ -795,7 +861,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -830,6 +896,17 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
+    #tomatoes-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 18px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
     .tomatoes-view-btn {
         color: white;
         font-size: 15px;
@@ -854,7 +931,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -889,6 +966,17 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
+    #cucumbers-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 20px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
     .cucumbers-view-btn {
         color: white;
         font-size: 15px;
@@ -913,7 +1001,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -948,6 +1036,17 @@ header {
         box-shadow: 1px 1px 2px #3e2e20;
     }
 
+    #carrots-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 19.5px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
+    }
+
     .carrots-view-btn {
         color: white;
         font-size: 15px;
@@ -972,7 +1071,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -1005,6 +1104,17 @@ header {
         width: 80%;
         border-radius: 5%;
         box-shadow: 1px 1px 2px #3e2e20;
+    }
+
+    #corn-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 19px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
     }
 
     .corn-view-btn {
