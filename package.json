@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/lhorsley02/f19-capstone-project#readme",
   "dependencies": {
+    "axios": "^0.26.1",
     "cors": "^2.8.5",
     "express": "^4.17.3"
   }
