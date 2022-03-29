@@ -38,9 +38,9 @@ header {
 .left-box {
     position: absolute;
     width: 80px;
-    height: 100%;
     top: 125px;
     bottom: 0px;
+    height: 250%;
     background-color: #3e2e20;
 }
 
@@ -49,8 +49,8 @@ header {
     width: 80px;
     right: 0px;
     top: 125px;
-    height: 100%;
     bottom: 0px;
+    height: 250%;
     background-color: #3e2e20;
 }
 
@@ -68,7 +68,7 @@ header {
     background-color: #ede9dc;
     position: relative;
     left: 10%;
-    width: 80%;
+    width: 80vw;
     height: 100%;
     top: 150px;
     text-align: center;
@@ -96,7 +96,7 @@ header {
     display: flex;
     position: relative;
     background-color: #ede9dc;
-    height: 300px;
+    height: 400px;
     width: 250px;
     margin-bottom: 50px;
     border: 2px solid  #3e2e20;
@@ -127,7 +127,18 @@ header {
         height: 200px;
         width: 80%;
         border-radius: 5%;
-        box-shadow: 1px 1px 2px #3e2e20;
+        box-shadow: 1px 1px 2px #3e2e20; 
+    }
+
+    #monstera-info {
+        position: absolute;
+        background-color: white;
+        height: 90px;
+        font-size: 18px;
+        color: black;
+        top: 230px;
+        word-break: break-word;
+        font-family: 'Cambria';
     }
 
     .monstera-view-btn {
@@ -153,7 +164,7 @@ header {
         display: flex;
         position: relative;
         background-color: #ede9dc;
-        height: 300px;
+        height: 400px;
         width: 250px;
         margin-bottom: 50px;
         border: 2px solid  #3e2e20;
@@ -187,6 +198,17 @@ header {
             box-shadow: 1px 1px 2px #3e2e20;
         }
 
+        #fiddle-info {
+            position: absolute;
+            background-color: white;
+            height: 90px;
+            font-size: 18px;
+            color: black;
+            top: 230px;
+            word-break: break-word;
+            font-family: 'Cambria';
+        }
+
         .fiddle-view-btn {
             color: white;
             font-size: 15px;
@@ -210,7 +232,7 @@ header {
         display: flex;
         position: relative;
         background-color: #ede9dc;
-        height: 300px;
+        height: 400px;
         width: 250px;
         margin-bottom: 50px;
         border: 2px solid  #3e2e20;
@@ -245,6 +267,17 @@ header {
             box-shadow: 1px 1px 2px #3e2e20;
         }
 
+        #money-plant-info {
+            position: absolute;
+            background-color: white;
+            height: 90px;
+            font-size: 18px;
+            color: black;
+            top: 230px;
+            word-break: break-word;
+            font-family: 'Cambria';
+        }
+
         .money-plant-view-btn {
             color: white;
             font-size: 15px;
@@ -269,7 +302,7 @@ header {
         display: flex;
         position: relative;
         background-color: #ede9dc;
-        height: 300px;
+        height: 400px;
         width: 250px;
         margin-bottom: 50px;
         border: 2px solid  #3e2e20;
@@ -304,6 +337,17 @@ header {
             box-shadow: 1px 1px 2px #3e2e20;
         }
 
+        #pothos-info {
+            position: absolute;
+            background-color: white;
+            height: 90px;
+            font-size: 17px;
+            color: black;
+            top: 230px;
+            word-break: break-word;
+            font-family: 'Cambria';
+        }
+
         .pothos-view-btn {
             color: white;
             font-size: 15px;
@@ -328,7 +372,7 @@ header {
         display: flex;
         position: relative;
         background-color: #ede9dc;
-        height: 300px;
+        height: 400px;
         width: 250px;
         margin-bottom: 50px;
         border: 2px solid  #3e2e20;
@@ -361,6 +405,17 @@ header {
             width: 80%;
             border-radius: 5%;
             box-shadow: 1px 1px 2px #3e2e20;
+        }
+
+        #spider-info {
+            position: absolute;
+            background-color: white;
+            height: 90px;
+            font-size: 16px;
+            color: black;
+            top: 230px;
+            word-break: break-word;
+            font-family: 'Cambria';
         }
 
         .spider-view-btn {

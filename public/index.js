@@ -1,6 +1,5 @@
 
 
-
 const monsteraBtn = document.querySelector('.monstera-view-btn')
 const fiddleBtn = document.querySelector('.fiddle-view-btn')
 const moneyPlantBtn = document.querySelector('.money-plant-view-btn')
@@ -24,13 +23,6 @@ const cornBtn = document.querySelector('.corn-view-btn')
 
 const BaseURL = `http://localhost:4005`
 
-function sayHello(event) {
-    
-    axios.get(`${BaseURL}`)
-        .then((res) => {
-            alert("Working")
-        })
-}
 
 function getMonsteraInfo(event) {
     
@@ -100,7 +92,7 @@ function getSnakeInfo(event) {
     
     axios.get(`${BaseURL}/api/plants`)
         .then(res => {
-            console.log(Object.values(res.data[0]))
+            console.log(Object.values(res.data[5]))
             document.getElementById("snake-info").textContent = Object.values(res.data[5]).join(" ")
         })
         .catch(err => {

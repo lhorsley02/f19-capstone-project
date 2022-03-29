@@ -92,69 +92,69 @@ header {
 /* Indoor */
 
     #monstera-box {
-    display: flex;
-    position: relative;
-    background-color: #ede9dc;
-    height: 400px;
-    width: 250px;
-    margin-bottom: 50px;
-    border: 2px solid  #3e2e20;
-    border-radius: 15px;
-    }
-    .monstera-header {
-        position: absolute;
-        font-family: 'Courier New';
-        border-radius: 10px 10px 0px 0px;
-        width: 100%;
-        height: 35px;
-        top: -30px;
-        background-color: #3e2e20;
-        color: white;
-        font-size: 30px;
-        text-align: left;
-        text-indent: 10px;
-    }
-
-    #monstera-pic {
         display: flex;
-        background-image: url(https://images.unsplash.com/photo-1637967885705-a60e3fea266d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 50px;
-        left: 10%;
-        height: 200px;
-        width: 80%;
-        border-radius: 5%;
-        box-shadow: 1px 1px 2px #3e2e20; 
-    }
+        position: relative;
+        background-color: #ede9dc;
+        height: 400px;
+        width: 250px;
+        margin-bottom: 50px;
+        border: 2px solid  #3e2e20;
+        border-radius: 15px;
+        }
+        .monstera-header {
+            position: absolute;
+            font-family: 'Courier New';
+            border-radius: 10px 10px 0px 0px;
+            width: 100%;
+            height: 35px;
+            top: -30px;
+            background-color: #3e2e20;
+            color: white;
+            font-size: 30px;
+            text-align: left;
+            text-indent: 10px;
+        }
 
-    #monstera-info {
-        position: absolute;
-        background-color: white;
-        height: 90px;
-        font-size: 18px;
-        color: black;
-        top: 230px;
-        word-break: break-word;
-        font-family: 'Cambria';
-    }
+        #monstera-pic {
+            display: flex;
+            background-image: url(https://images.unsplash.com/photo-1637967885705-a60e3fea266d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 50px;
+            left: 10%;
+            height: 200px;
+            width: 80%;
+            border-radius: 5%;
+            box-shadow: 1px 1px 2px #3e2e20; 
+        }
 
-    .monstera-view-btn {
-        color: white;
-        font-size: 15px;
-        background-color: #3e2e20;
-        position: absolute;
-        border-radius: 20px;
-        width: 50%;
-        height: 40px;
-        bottom: 5px;
-        left: 25%;
-        font-family: 'Brush Script MT ';
-    }
-    .monstera-view-btn:hover { 
-        background-color: #503f30;
-    }
+        #monstera-info {
+            position: absolute;
+            background-color: white;
+            height: 90px;
+            font-size: 18px;
+            color: black;
+            top: 230px;
+            word-break: break-word;
+            font-family: 'Cambria';
+        }
+
+        .monstera-view-btn {
+            color: white;
+            font-size: 15px;
+            background-color: #3e2e20;
+            position: absolute;
+            border-radius: 20px;
+            width: 50%;
+            height: 40px;
+            bottom: 5px;
+            left: 25%;
+            font-family: 'Brush Script MT ';
+        }
+        .monstera-view-btn:hover { 
+            background-color: #503f30;
+        }
 
 
 
